@@ -19,7 +19,7 @@ function TopBar(props) {
       <AppBar position="static" color="default">
         <Toolbar>
           <Typography variant="h6" color="inherit">
-            Photos
+            PicforU
           </Typography>
         </Toolbar>
       </AppBar>

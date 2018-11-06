@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Button from '@material-ui/core/Button';
 import TopBar from './components/TopBar'
+import Grid from './components/Grid'
 
 import './App.css';
 
@@ -11,21 +11,7 @@ class App extends Component {
       <div className="App">
         <TopBar />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <Button variant="contained" color="primary">
-            Hello World
-          </Button>
+          <Grid />
         </header>
       </div>
     );
